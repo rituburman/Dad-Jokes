@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="card column is-three-fifths is-offset-one-fifth ">
+  <header class="card-header has-background-link-light	 ">
+    <p class="card-header-title has-text-link ">
+      Click to get a new Dad Joke!
+    </p>
+    <button class="card-header-icon" aria-label="more options">
+      <span class="icon">
+        <i class="fas fa-angle-down" aria-hidden="true"></i>
+      </span>
+    </button>
+  </header>
+  <div class="card-content">
+    <div class="content">
+        <ul id="jokes"></ul>      
+    </div>
+  </div>
+  <footer class="card-footer ">
+   
+    <button class="button is-danger button is-fullwidth " id="jokebutton"> Dad </button>
+
+  </footer>
+</div>
+   <!--<h1>Click to get new jokes!</h1>
+    <button class="button is-danger is-focused"> Click Me </button>
+   <ul id="jokes"></ul>-->
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="dadJokes.js"></script>
+</body>
+</html>
